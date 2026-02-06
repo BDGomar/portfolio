@@ -6,8 +6,15 @@
 
 .about__item {
   padding: 0.35rem 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--noir);
+  word-break: break-word;
+}
+
+@media (min-width: 480px) {
+  .about__item {
+    font-size: 0.95rem;
+  }
 }
 
 .about__label {

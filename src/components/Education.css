@@ -2,7 +2,14 @@
   font-weight: 600;
   color: var(--noir);
   margin: 0 0 0.75rem 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  word-break: break-word;
+}
+
+@media (min-width: 480px) {
+  .education__school {
+    font-size: 0.95rem;
+  }
 }
 
 .education__list {
@@ -13,6 +20,12 @@
 
 .education__item {
   padding: 0.25rem 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--noir);
+}
+
+@media (min-width: 480px) {
+  .education__item {
+    font-size: 0.95rem;
+  }
 }

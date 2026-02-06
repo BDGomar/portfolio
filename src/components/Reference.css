@@ -28,6 +28,8 @@
   align-items: center;
   gap: 0.4rem;
   margin-top: 0.5rem;
+  padding: 0.5rem 0.25rem;
+  min-height: 44px;
   font-weight: 500;
   color: var(--bleu-fonce);
   text-decoration: none;

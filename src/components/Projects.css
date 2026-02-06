@@ -20,13 +20,19 @@
 
 .projects__item--progress {
   border-left: 3px solid var(--bleu-cyan);
-  padding-left: 1rem;
-  margin-left: -1rem;
-  padding-left: calc(1rem - 3px);
+  padding-left: 0.75rem;
+  margin-left: 0;
+}
+
+@media (min-width: 480px) {
+  .projects__item--progress {
+    margin-left: -1rem;
+    padding-left: calc(1rem - 3px);
+  }
 }
 
 .projects__title {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--noir);
   margin: 0 0 0.35em 0;
@@ -34,6 +40,12 @@
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+@media (min-width: 480px) {
+  .projects__title {
+    font-size: 1rem;
+  }
 }
 
 .projects__badge {
@@ -46,10 +58,16 @@
 }
 
 .projects__description {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--gris-texte);
   margin: 0 0 0.5rem 0;
   line-height: 1.45;
+}
+
+@media (min-width: 480px) {
+  .projects__description {
+    font-size: 0.9rem;
+  }
 }
 
 .projects__tech {

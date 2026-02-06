@@ -15,7 +15,7 @@
 
 .experience__period {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--bleu-fonce);
   margin-bottom: 0.25rem;
@@ -25,11 +25,24 @@
   font-weight: 600;
   color: var(--noir);
   margin: 0 0 0.2em 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  word-break: break-word;
 }
 
 .experience__place {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--gris-texte);
   margin: 0;
+}
+
+@media (min-width: 480px) {
+  .experience__period {
+    font-size: 0.8rem;
+  }
+  .experience__title {
+    font-size: 0.95rem;
+  }
+  .experience__place {
+    font-size: 0.9rem;
+  }
 }

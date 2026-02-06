@@ -6,27 +6,54 @@
 
 .certifications__item {
   padding: 0.35rem 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--noir);
 }
 
+@media (min-width: 480px) {
+  .certifications__item {
+    font-size: 0.95rem;
+  }
+}
+
 .certifications__badges {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (min-width: 380px) {
+  .certifications__badges {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .certifications__badges {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
 }
 
 .cert-badge {
   position: relative;
-  padding: 1rem;
-  border-radius: 12px;
+  padding: 0.75rem;
+  border-radius: 10px;
   background: linear-gradient(135deg, var(--bleu-clair) 0%, #a8e6cf 100%);
   overflow: hidden;
-  min-height: 90px;
+  min-height: 72px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+@media (min-width: 480px) {
+  .cert-badge {
+    padding: 1rem;
+    min-height: 90px;
+    border-radius: 12px;
+  }
 }
 
 .cert-badge:nth-child(2),
@@ -51,7 +78,7 @@
 }
 
 .cert-badge__name {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--bleu-fonce);
   position: relative;
@@ -59,10 +86,16 @@
   line-height: 1.3;
 }
 
+@media (min-width: 480px) {
+  .cert-badge__name {
+    font-size: 0.8rem;
+  }
+}
+
 .cert-badge__verified {
   display: inline-block;
   margin-top: 0.35rem;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 600;
   color: var(--bleu-fonce);
   background: rgba(255, 255, 255, 0.8);
