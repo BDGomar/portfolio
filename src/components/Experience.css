@@ -1,0 +1,35 @@
+.experience__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience__item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--bordure);
+}
+
+.experience__item:last-child {
+  border-bottom: none;
+}
+
+.experience__period {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--bleu-fonce);
+  margin-bottom: 0.25rem;
+}
+
+.experience__title {
+  font-weight: 600;
+  color: var(--noir);
+  margin: 0 0 0.2em 0;
+  font-size: 0.95rem;
+}
+
+.experience__place {
+  font-size: 0.9rem;
+  color: var(--gris-texte);
+  margin: 0;
+}

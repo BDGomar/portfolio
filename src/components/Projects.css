@@ -1,0 +1,68 @@
+.projects__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects__item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--bordure);
+  transition: background 0.2s ease;
+}
+
+.projects__item:hover {
+  background: var(--survol);
+}
+
+.projects__item:last-child {
+  border-bottom: none;
+}
+
+.projects__item--progress {
+  border-left: 3px solid var(--bleu-cyan);
+  padding-left: 1rem;
+  margin-left: -1rem;
+  padding-left: calc(1rem - 3px);
+}
+
+.projects__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--noir);
+  margin: 0 0 0.35em 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.projects__badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: var(--bleu-cyan);
+  color: var(--blanc);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+.projects__description {
+  font-size: 0.9rem;
+  color: var(--gris-texte);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.45;
+}
+
+.projects__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.projects__tech-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--bleu-fonce);
+  background: var(--bleu-clair);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}

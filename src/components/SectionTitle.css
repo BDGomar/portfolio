@@ -1,0 +1,24 @@
+.section-title {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--blanc);
+  margin: 0 0 1rem 0;
+}
+
+.section-title--primary {
+  background: var(--bleu-cyan);
+}
+
+.section-title--dark {
+  background: var(--bleu-fonce);
+}
+
+.section-title--light {
+  background: var(--bleu-clair);
+  color: var(--noir);
+}

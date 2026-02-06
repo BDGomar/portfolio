@@ -1,0 +1,18 @@
+.education__school {
+  font-weight: 600;
+  color: var(--noir);
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+}
+
+.education__list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.education__item {
+  padding: 0.25rem 0;
+  font-size: 0.95rem;
+  color: var(--noir);
+}

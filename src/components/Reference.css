@@ -1,0 +1,43 @@
+.reference__heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--noir);
+  text-decoration: underline;
+  margin: 0 0 0.75rem 0;
+}
+
+.reference__card {
+  padding: 0.5rem 0;
+}
+
+.reference__name {
+  font-weight: 600;
+  color: var(--noir);
+  margin: 0 0 0.25rem 0;
+}
+
+.reference__role,
+.reference__place {
+  font-size: 0.95rem;
+  color: var(--gris-texte);
+  margin: 0 0 0.2rem 0;
+}
+
+.reference__phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: var(--bleu-fonce);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.reference__phone:hover {
+  color: var(--bleu-cyan);
+}
+
+.reference__phone-icon {
+  font-size: 1rem;
+}

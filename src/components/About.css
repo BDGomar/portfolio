@@ -1,0 +1,20 @@
+.about__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about__item {
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+  color: var(--noir);
+}
+
+.about__label {
+  font-weight: 600;
+  color: var(--gris-anthracite);
+}
+
+.about__value {
+  font-weight: 500;
+}
