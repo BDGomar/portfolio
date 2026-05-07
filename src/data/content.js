@@ -1,48 +1,63 @@
 export const profile = {
   name: 'BANDAOGO Idrissa Ben Omar',
-  title: 'Développeur Full Stack',
+  title: 'Développeur Full Stack | Backend & Frontend',
   email: 'idrissabenbandaogo12@gmail.com',
   phone: '+226 65 50 30 39',
-  age: 20,
-  situation: 'Célibataire sans enfant',
-  passion: 'Informatique et électronique',
+  location: 'Ouagadougou, Burkina Faso',
+  status: 'Disponible pour missions freelance et CDI',
 }
 
 export const about = [
-  { label: 'Âge', value: '20 ans' },
+  {
+    label: 'Profil',
+    value:
+      'Développeur Full Stack avec une expérience concrète en développement web et mobile, DevOps, administration système et architecture logicielle.',
+  },
+  { label: 'Localisation', value: profile.location },
   { label: 'Email', value: profile.email },
   { label: 'Contact', value: profile.phone },
-  { label: 'Situation matrimoniale', value: profile.situation },
-  { label: 'Passion', value: profile.passion },
+  { label: 'Statut', value: profile.status },
 ]
 
 export const education = {
-  school: "Université de l'Unité Africaine (ex IAM)",
+  school: "Université de l'Unité Africaine — Ouagadougou",
   items: [
-    'BAC 2023',
-    'BAC+2 en Informatique de Gestion (Génie Logiciel)',
-    'BAC+3 en Informatique de Gestion (Génie Logiciel) en cours',
+    'Licence BAC+3 — Informatique de Gestion, Génie Logiciel (2025-2026, en cours)',
+    'BAC+2 — Informatique de Gestion, Génie Logiciel (2024-2025, obtenu)',
+    'Baccalauréat Série D (2023-2024)',
   ],
 }
 
 export const experience = [
   {
-    period: 'Juillet à octobre 2024',
-    title: 'Stage à la Direction de l\'Informatique des Systèmes d\'Information et de l\'Archivage en Santé (DISIAS)',
-    place: 'CHU Bogodogo',
+    period: 'Avril 2025 - présent',
+    title: 'Développeur Full Stack Freelance',
+    place: 'Obat Services — Canada (télétravail)',
   },
   {
-    period: 'Depuis juin 2025',
-    title: 'Développeur full stack freelance',
-    place: 'Obat Services Canada',
+    period: 'Juin 2025 - Octobre 2025',
+    title: 'Développeur Full Stack',
+    place: 'Box Africa — Burkina Faso',
+  },
+  {
+    period: 'Juin 2025 - Juillet 2025',
+    title: 'Consultant Développement Web',
+    place: 'NIPAB SA — Burkina Faso',
+  },
+  {
+    period: 'Juillet 2024 - Février 2025',
+    title: 'Stagiaire Développeur',
+    place: 'DISIAS · CHU Bogodogo — Burkina Faso',
   },
 ]
 
 export const certifications = [
-  'Certifié Data Scientist junior 1 de chez Cisco Academy',
-  'Certification Angular de chez Orange Digital Center',
-  'Certifié Java Developer de chez Cursa',
-  'Certifié Python Essential 1 de chez Cisco Academy',
+  'Java Developer — Cursa',
+  'Python Essentials 1 — Cisco Networking Academy',
+  'Introduction to Data Science (Data Scientist Junior 1) — Cisco Networking Academy',
+  'Introduction to IoT — Cisco Networking Academy',
+  'Linux Unhatched — Cisco Networking Academy',
+  'Angular — Orange Digital Center',
 ]
 
 export const badges = [
@@ -53,45 +68,55 @@ export const badges = [
 ]
 
 export const skills = [
-  'Développement web',
-  'Front-end (HTML/CSS/JS, React JS, Vue JS)',
-  'Back-end (Laravel, Node.js, Spring Boot)',
-  'CMS (WordPress / Joomla)',
-  'Développement mobile (Ionic, Flutter)',
-  'Bases de données (MySQL)',
+  'Frontend: React.js, Angular, HTML5, CSS3, JavaScript',
+  'Backend: Laravel (PHP), Node.js, Spring Boot',
+  'Mobile: Flutter, Ionic',
+  'DevOps / Cloud: AWS EC2, Docker, GitLab CI/CD',
+  'Bases de données: MySQL, PostgreSQL',
+  'CMS / OS: WordPress, Joomla, Linux, macOS',
 ]
 
 export const projects = [
   {
+    title: 'Notarix',
+    description: 'Application de suivi et de gestion de dossiers notariés avec génération et conversion RTF/PDF-A.',
+    tech: ['React', 'Laravel', 'Docker', 'AWS EC2'],
+  },
+  {
     title: 'EasyStock',
-    description: "Application de gestion de stock développée avec Laravel.",
+    description: 'Application de gestion de stock développée avec Laravel.',
     tech: ['Laravel'],
   },
   {
-    title: 'Application de renseignement hospitalier',
-    description: 'Application pour les examens, analyses et consultations.',
+    title: 'Application hospitalière',
+    description: 'Gestion des renseignements, examens et consultations.',
     tech: ['Laravel'],
+  },
+  {
+    title: 'Application mobile universitaire',
+    description: 'Version Ionic + Laravel, avec une v2 Flutter en cours.',
+    tech: ['Ionic', 'Laravel', 'Flutter'],
+    inProgress: true,
+  },
+  {
+    title: 'PWA de vote des délégués',
+    description: 'Application web progressive réalisée pour IAM Ouaga.',
+    tech: ['PWA', 'JavaScript'],
+  },
+  {
+    title: 'Application mobile fast-food',
+    description: 'Application mobile pour Belchicken.',
+    tech: ['Mobile'],
   },
   {
     title: 'Gestion de tickets de restauration',
-    description: 'Application web pour le compte du CHU de Bogodogo.',
+    description: 'Application web pour le CHU de Bogodogo.',
     tech: ['Laravel'],
   },
   {
-    title: 'Site du PAIF',
-    description: 'Développement en équipe du site.',
+    title: 'Site institutionnel PAIF',
+    description: 'Développement WordPress en équipe.',
     tech: ['WordPress'],
-  },
-  {
-    title: 'Application mobile de gestion universitaire',
-    description: 'Application mobile de gestion des universités.',
-    tech: ['Ionic'],
-  },
-  {
-    title: 'Application mobile gestion universitaire (en cours)',
-    description: "Nouvelle version avec Flutter en front-end et Laravel en back-end.",
-    tech: ['Flutter', 'Laravel'],
-    inProgress: true,
   },
 ]
 
@@ -119,9 +144,17 @@ export const featuredSites = [
   },
 ]
 
-export const reference = {
-  name: 'Mr BLEGNA Siaka',
-  role: 'DSI du CHU',
-  place: 'Bogodogo',
-  phone: '+226 76 72 38 49',
-}
+export const references = [
+  {
+    name: 'M. Siaka BLEGNA',
+    role: 'DSI, CHU Bogodogo',
+    place: 'Burkina Faso',
+    phone: '+226 76 72 38 49',
+  },
+  {
+    name: 'M. Serge BATIONO',
+    role: 'CEO, Obat Services',
+    place: 'Canada',
+    phone: '+1 (438) 886-9239',
+  },
+]
